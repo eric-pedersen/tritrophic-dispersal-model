@@ -1,0 +1,12 @@
+To run these bifurcations, you should have auto-07p installed somewhere on your system, 
+and the file structures set for the project as in the Github repository. 
+Also, you should run this in Python 2.7 (NOT Python 3.x)
+
+You'll need to have the following Python packages installed as well: 
+pandas, numpy, and matplotlib.
+
+After that, you should be able to recreate the output files by running 
+"execution_and_analysis.py". It will run all subsequent bifurcation analyses 
+in the folder. There are instructions in "execution_and_analysis.py" for
+running in Windows, but I have not had much luck getting auto to run sucessfully
+in that OS; The plotting seems to be especially problematic. 

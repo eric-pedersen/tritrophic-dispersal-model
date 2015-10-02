@@ -1,0 +1,6 @@
+
+for i in $(ls scripts); do  msub -q sw scripts/$i; done
+
+
+
+canceljob ALL
