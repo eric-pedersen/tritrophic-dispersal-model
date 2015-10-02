@@ -13,6 +13,8 @@ This code repository is set up to be run as a Rstudio project. After downloading
 ### Creating the R package "tritrophsim"
 The core of these analyses are simulation code run using a custom-built package: "tritrophsim". This package consists of three R files found in "/Code/simulating_dynamics_in_R": "compiling_functions.R", "plotting_functions.R" and "testing_functions.R". These can all be compiled into a package by first running the script "compile_package.R" then using Rstudio's "build" tool, by clicking the *build* menu, then *build source package*. After this, you should install the source package into your local library in R. 
 
+
+
 ### Running R simulations for figures
 This code is currently not set up to be simple to run on any computer; This is because the simulation runs for both figure 3 and 4 require a great deal of computation, longer than is feasible on a single desktop. I ran all the simulations for this project on the Collose server from Compute Canada; as such, the code is set up to construct scripts and code to be moved over to that server to run. To set it up for a different use, please contact me for help.
 
